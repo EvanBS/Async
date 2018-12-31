@@ -90,7 +90,11 @@ namespace AsyncAwait
             }
             #endregion
 
+            #region CommonDenominators
+            long[,] lst = new long[,] { { 1, 2 }, { 1, 3 }, { 1, 4 }, { 69, 130 }, { 87, 1310 }, { 3, 4 } };
+            Console.WriteLine(CodeWars.convertFrac(lst));
 
+            #endregion
 
             #region events
 
